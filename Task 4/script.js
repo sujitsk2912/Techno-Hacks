@@ -3,7 +3,7 @@ const dropList = document.querySelectorAll("form select"),
   toCurrency = document.querySelector(".to select"),
   getButton = document.querySelector("form button");
 
-const API = "YOUR_API_KEY";
+const API = "fe2181fb5199d3bcf07cacf1";
 
 for (let i = 0; i < dropList.length; i++) {
   for (let currency_code in country_list) {
